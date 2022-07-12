@@ -5,7 +5,7 @@ import mapboxgl from 'mapbox-gl'; // or "const mapboxgl = require('mapbox-gl');"
 export const getMapBox = () => {
 
     // Token for MapBox API
-    mapboxgl.accessToken = 'SU TOKEN';
+    mapboxgl.accessToken = 'YOUR TOKEN HERE';
 
 
     const map = new mapboxgl.Map({
